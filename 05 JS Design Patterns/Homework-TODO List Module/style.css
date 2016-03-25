@@ -1,0 +1,55 @@
+#wrapper {
+    border: 2px solid black;
+    width: 400px;
+}
+h1 {
+    text-align: center;
+}
+
+#container, section {
+    border: 2px solid #e8e8e8;
+    width: 95%;
+    margin: 10px auto;
+}
+
+h2 {
+    text-align: right;
+    margin: 5px;
+}
+ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+}
+input[type=checkbox]{
+    opacity: 0;
+}
+
+
+img {
+    padding: 0;
+    height:12px;
+    width:12px;
+    background: #f8f8f8;
+    margin-left: -15px;
+    margin-right: 10px;
+}
+
+input:checked+img {
+    background: url(http://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size:12px 12px;
+    cursor: pointer;
+    margin-left: -15px;
+}
+
+.footer-right {
+    text-align: right;
+    margin: 5px;
+}
+
+.footer-left {
+    text-align: left;
+    margin: 5px;
+}
