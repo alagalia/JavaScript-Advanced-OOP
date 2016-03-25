@@ -1,0 +1,33 @@
+h1 {
+    font-size: 1.6em;
+}
+
+p{
+    margin: 0;
+}
+body {
+    background: papayawhip;
+
+}
+#wrapper{
+    width: 90%;
+    background: papayawhip;
+    margin: 0 auto;
+}
+
+form {
+    width: 100%;
+}
+#inv {
+     display: inline-flex;
+ }
+#inv label {
+    width: 300px;
+}
+
+.login, .reset {
+    display: inline-block;
+}
+
+#invoiceForm{
+visibility: hidden}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem 1.Webinar registration form</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+<div id="wrapper">
+    <div id="login" class="animate form">
+        <form>
+        <h1>Регистрация за уебинар</h1>
+        <p>
+            <label for="username" class="uname"> Име и фамилия </label><br>
+            <input id="username" name="username" required="required" type="text"/>
+        </p>
+
+        <p>
+            <label for="address" class="addr"> Адрес </label><br>
+            <input id="address" name="address" required="required" type="text"/>
+        </p>
+
+        <p>
+            <label for="place" class="plac"> Населено място </label><br>
+            <input id="place" name="place" required="required" type="text"/>
+        </p>
+
+        <p>
+            <label for="code" class="cod"> Пощенски код </label><br>
+            <input id="code" name="code" required="required" type="number"/>
+        </p>
+
+        <p>
+            <label for="mail" class="mail"> Email</label><br>
+            <input id="mail" name="mail" required="required" type="email"/>
+        </p>
+
+        <p>
+            <label for="phone" class="phone"> Телефон</label><br>
+            <input id="phone" name="phone" required="required" type="tel"/>
+        </p>
+
+        <p>
+            <label for="date" class="date"> Дата на семинара</label><br>
+            <input id="date" name="date" required="required" type="date" placeholder="mm/dd/yyyy"/>
+        </p>
+        <p id="inv">
+            <input type="checkbox" name="invoice" id="invoice" value="invoice" />
+            <label for="invoice">Желая фактура</label>
+        </p>
+            <!--===========-->
+            <div id="invoiceForm">
+                <p>
+                    <label for="firm" class="firm">Фирма/Организация </label><br>
+                    <input id="firm" name="firm" required="required" type="text"/>
+                </p>
+
+                <p>
+                    <label for="mol" class="mol"> МОЛ: </label><br>
+                    <input id="mol" name="mol" required="required" type="text"/>
+                </p>
+
+                <p>
+                    <label for="eik" class="eik"> ЕИК: </label><br>
+                    <input id="eik" name="eik" required="required" type="number"/>
+                </p>
+
+                <p>
+                    <label for="in" class="in"> ИН по ДДС:</label><br>
+                    <input id="in" name="in" required="required" type="email"/>
+                </p>
+
+                <p>
+                    <label for="address" class="addr"> Адрес </label><br>
+                    <input id="address1" name="address" required="required" type="text"/>
+                </p>
+
+            </div>
+            <div>
+                <p class="login">
+                    <input type="submit" value="Регистрирай се" />
+                </p>
+                <p class="reset">
+                    <input type="reset" value="Изчисти" />
+                </p>
+            </div>
+
+    </form>
+
+
+
+    </div>
+</div>
+<script type="text/javascript" src="script/js.js"></script>
+</body>
+</html>
